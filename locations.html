@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>locations</title>
+</head>
+
+<body>
+  <!-- Encabezado de la aplicacion -->
+  <header class="flex justify-between items-center p-4 bg-white">
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-900">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+      </svg>
+      
+
+    </div>
+    <div class="text-md font-bold text-center text-gray-800">Selet</div>
+    <div>
+        
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-900">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
+      </svg>
+        
+      
+    </div>
+  </header>
+  
+  <!-- Texto superior -->
+
+  <div class="p-4 container">
+    <!-- Crear la primera fila -->
+    <div class="fila-1">
+      <div class="asiento">1A</div>
+      <div class="asiento reservado">2A</div>
+      <div class="asiento reservado">3A</div>
+      <div class="asiento">4A</div>
+      <div class="asiento">5A</div>
+      <div class="asiento">6A</div>
+    </div>
+  
+    <!-- Segunda fila -->
+    <div class="fila">
+      <div class="asiento">1B</div>
+      <div class="asiento seleccionado">2B</div>
+      <div class="asiento seleccionado">3B</div>
+      <div class="asiento seleccionado">4B</div>
+      <div class="asiento">5B</div>
+      <div class="asiento">6B</div>
+      <div class="asiento">7B</div>
+    </div>
+  
+  <!-- Tercera fila -->
+    <div class="fila">
+      <div class="asiento">1C</div>
+      <div class="asiento reservado">2C</div>
+      <div class="asiento">3C</div>
+      <div class="asiento">4C</div>
+      <div class="asiento">5C</div>
+      <div class="asiento">6C</div>
+      <div class="asiento">7C</div>
+    </div>
+  <!-- Cuarta fila -->
+    <div class="fila">
+      <div class="asiento">1D</div>
+      <div class="asiento">2D</div>
+      <div class="asiento">3D</div>
+      <div class="asiento">4D</div>
+      <div class="asiento reservado">5D</div>
+      <div class="asiento reservado">6D</div>
+      <div class="asiento">7D</div>
+    </div>
+  
+  <!-- Quinta fila -->
+    <div class="fila">
+      <div class="asiento">1E</div>
+      <div class="asiento">2E</div>
+      <div class="asiento">3E</div>
+      <div class="asiento reservado">4E</div>
+      <div class="asiento">5E</div>
+      <div class="asiento">6E</div>
+      <div class="asiento">7E</div>
+    </div>
+  
+    <!-- Sexta fila -->
+    <div class="fila">
+      <div class="asiento reservado">1F</div>
+      <div class="asiento">2F</div>
+      <div class="asiento">3F</div>
+      <div class="asiento reservado">4F</div>
+      <div class="asiento">5F</div>
+      <div class="asiento">6F</div>
+      <div class="asiento">7F</div>
+    </div>
+    <!-- Séptima fila-->
+    <div class="fila">
+      <div class="asiento">1G</div>
+      <div class="asiento">2G</div>
+      <div class="asiento">3G</div>
+      <div class="asiento">4G</div>
+      <div class="asiento">5G</div>
+      <div class="asiento">6G</div>
+      <div class="asiento reservado">7G</div>
+      
+    </div>
+  </div>
+ 
+
+  <!-- Contenido de la aplicacion -->
+  <main>
+
+    
+
+      <header class="flex flex-row justify-between items-center p-4 bg-white">
+        <div>
+            <p class=" gap-3 relative bottom+7 left-2 text-black flex">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-red-600">
+                        <path fill-rule="evenodd" d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z" clip-rule="evenodd" />
+                      </svg>
+                </span>
+                <span>
+                    Selected.
+                </span>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-blue-600">
+                        <path fill-rule="evenodd" d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z" clip-rule="evenodd" />
+                      </svg>
+                </span>
+                <span>
+                    Reserved.
+                </span>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-black-600">
+                        <path fill-rule="evenodd" d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z" clip-rule="evenodd" />
+                      </svg>
+                </span>
+                <span>
+                    Available.
+                </span>
+            </p>
+        </div>
+     </header>
+     <p class=" mb-3 font-bold text-gray-900 dark:text-gray-800">Detalles del evento</p>
+          
+          <header class=" gap-1 flex bottom-5 left-6 justify-between items-center p-6 bg-white">
+            <div>
+              <p class="  relative bottom-0 left-0 text-black flex">
+                
+                <span>
+                    Conciertro 
+                </span>
+               </p>
+
+            </div>
+            <div>
+              <p class="relative bottom-0 left-1 text-black flex">
+              
+                <span>
+                    New York-USA
+                </span>
+               </p>
+            </div>
+            <div>
+              <p class="relative bottom-0 left-5 text-black flex">
+                
+                <span>
+                  Cras Building
+                </span>
+               </p>
+                
+            </div>
+            
+          </header>
+
+         
+            
+         
+         
+
+  <p class="mb-3 font-light text-gray-500 dark:text-gray-900">Praesent hendrerit in metus ac finibus. Vestibulum accumsan porta mi sit amet placerat. In ac nisi ac lectus accumsan tempor.</p>
+  <p class="font-light text-gray-500 dark:text-gray-400">.</p>
+
+
+
+  <button type="button" class="w-full py-2.5 px-5 m-4 text-sm font-medium text-white focus:outline-none bg-pink-600 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-white dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Comprar boleto</button>
+      
+  </main>
+  
+</div>
+<div id="menu"></div>
+</div>
+<script type="module" src="./src/js/main.js"></script>
+</body>
+</html>
