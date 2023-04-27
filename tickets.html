@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tickets</title>
+</head>
+
+<body>
+  <main>
+  <!-- Encabezado de la aplicacion -->
+  <header class="flex justify-between items-center p-4 bg-white">
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+    </div>
+    <div class="text-md font-bold text-center text-gray-800">Tickets Comprados</div>
+    <div>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+        </svg>
+          
+    
+    </div>
+  </header>
+  
+  <button data-popover-target="popover-right" data-popover-placement="right" type="button" class="text-black mb-3 bg-rose-600 hover:bg-rose-600 focus:ring-4 focus:outline-none focus:ring-rose-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-rose-600 dark:hover:bg-rose-600 dark:focus:ring-rose-600 border color-rose-600">Todos</button>
+
+ <button data-popover-target="popover-right" data-popover-placement="right" type="button" class="text-black mb-3 bg-white hover:bg-rose-600 focus:ring-4 focus:outline-none focus:ring-rose-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-rose-600 dark:hover:bg-rose-600 dark:focus:ring-rose-600 border color-rose-600">Pendientes</button>
+
+ <button data-popover-target="popover-right" data-popover-placement="right" type="button" class="text-black mb-3 bg-white hover:bg-rose-600 focus:ring-4 focus:outline-none focus:ring-rose-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-rose-600 dark:hover:bg-rose-600 dark:focus:ring-rose-600 border color-rose-600">Anteriores</button>
+
+
+<div id="alert-1" class="flex p-4 mb-4 text-black rounded-lg bg-gray-50 dark:bg-gray-800 dark:text-white" role="alert">
+    <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-white bg-white rounded-lg dark:bg-white dark:text-green-200">
+        <input id="remember"  type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+    </div>
+    <div class="ml-3 text-sm  font-bold">Rhiana World Tour</div>
+    <div class="ml-7 text-sm">18-Jun</div>
+     
+  </div>
+  <div id="alert-2" class="flex p-4 mb-4 text-black rounded-lg bg-gray-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+    <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-white bg-white rounded-lg dark:bg-white dark:text-green-200">
+        <input id="remember"  type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+    </div>
+    <div class="ml-3 text-sm  font-bold">Rhiana World Tour</div>
+    
+  </div>
+  <div id="alert-3" class="flex p-4 mb-4 text-black rounded-lg bg-gray-50 dark:bg-gray-800 dark:text-green-400" role="alert">
+    <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-white bg-white rounded-lg dark:bg-white dark:text-green-200">
+        <input id="remember"  type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+    </div>
+    <div class="ml-3 text-sm font-bold">Selena Tributo</div>
+    
+  </div>
+  <div id="alert-4" class="flex p-4 mb-4 text-black rounded-lg bg-gray-50 dark:bg-gray-800 dark:text-yellow-300" role="alert">
+    <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-white bg-white rounded-lg dark:bg-white dark:text-green-200">
+        <input id="remember"  type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+    </div>
+    <div class="ml-3 text-sm font-bold">Selena Tributo</div>
+    
+  </div>
+  <div id="alert-4" class="flex p-4 mb-4 text-black rounded-lg bg-gray-50 dark:bg-gray-800 dark:text-yellow-300" role="alert">
+    <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-white bg-white rounded-lg dark:bg-white dark:text-green-200">
+        <input id="remember"  type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+    </div>
+    <div class="ml-3 text-sm font-bold">Selena Tributo</div>
+   
+  </div>
+  <div id="alert-4" class="flex p-4 mb-4 text-black rounded-lg bg-gray-50 dark:bg-gray-800 dark:text-yellow-300" role="alert">
+    <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-white bg-white rounded-lg dark:bg-white dark:text-green-200">
+        <input id="remember"  type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+    </div>
+    <div class="ml-3 text-sm  font-bold">Rhiana World Tour</div>
+    
+  </div>
+  <div id="alert-4" class="flex p-4 mb-4 text-black rounded-lg bg-gray-50 dark:bg-gray-800 dark:text-yellow-300" role="alert">
+    <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-white bg-white rounded-lg dark:bg-white dark:text-green-200">
+        <input id="remember"  type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+    </div>
+    <div class="ml-3 text-sm  font-bold">Rhiana World Tour</div>
+    
+  </div>
+  
+  <div id="alert-4" class="flex p-4 mb-4 text-black rounded-lg bg-gray-50 dark:bg-gray-800 dark:text-yellow-300" role="alert">
+    <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-white bg-white rounded-lg dark:bg-white dark:text-green-200">
+        <input id="remember"  type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required>
+    </div>
+    <div class="ml-3 text-sm  font-bold">Selena Tributo</div>
+    
+  </div>
+
+    
+ <button type="button" class="w-full py-2.5 px-5 m-4 text-sm font-medium text-white focus:outline-none bg-pink-600 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-white dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">+ Comprar boletos</button>
+
+  
+        </div>
+    <div id="menu"></div>
+    </div>
+    <script type="module" src="./src/js/main.js"></script>
+    </main>
+    </body>
+    </html>
